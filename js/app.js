@@ -27964,7 +27964,7 @@ if (projects.length) {
       const title = project.getAttribute("data-title");
       const ImgTag = document.querySelector(".project-details-img");
       const TitleTag = document.getElementById("project-title");
-      ImgTag.src = `./assets/images/${img}.png`;
+      ImgTag.src = `./assets/${img}.png`;
       TitleTag.innerText = title;
     });
   });
